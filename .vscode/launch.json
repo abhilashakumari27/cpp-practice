@@ -8,10 +8,10 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/abhil/OneDrive/Desktop/CRT PHASE 1/DAY1",
+      "program": "c:/Users/abhil/OneDrive/Desktop/CRT PHASE 1/DAY1/build/Debug/outDebug",
       "MIMode": "gdb",
-      "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+      "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
