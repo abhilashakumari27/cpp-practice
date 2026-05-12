@@ -1,12 +1,21 @@
 #include<iostream>
 using namespace std;
 
-int main()
-{
-    for(int i = 0; i <=10;i++){
-        cout << i << " ";
+     int fac(int x)
+     {
+        if (x == 1)
+        {
+          return 1;
+        }
+
+           return x * fac(x-1);
+            
     }
 
-    return 0;
-
-}
+        int main()
+        {
+            int x;
+            cin >> x;
+            cout << "Factorial is:" <<fac(x) << endl;
+            return 0;
+        }
